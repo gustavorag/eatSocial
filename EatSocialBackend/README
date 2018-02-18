@@ -1,0 +1,131 @@
+**** README ****
+
+MyServer Prototype Documentation
+
+====== Entities ======
+
+-------------------------------------------- VISIT --------------------------------------------
+Class Name: Visit
+
+Desc: 
+
+Visit is an experience created by user when they want to go to a restaurant with a customized service or when they do a check-in in a restaurant's table
+ 
+Endpoin: /visits/                -- Return all visits
+Endpoin: /visits/{id}            -- Return a specific visit
+Endpoin: /visits/restaurant/{id} -- Return all visits for a specific restaurant
+Endpoin: /visits/user/{id}       -- Return all visits for a specific user
+
+Json Returned (Individual visit):
+{
+	id: UUID,
+	users: [userId:UUID],
+	restaurantId: UUID,
+	checkInTime: Date,
+	checkOutTime: Date, 
+	tableId: String
+}
+
+-------------------------------------------- SERVING --------------------------------------------
+Class Name: Serving
+
+Desc: 
+Serving is a group of one o more items to be served together, within a visit. Also, Serving indicates when it will be done: As soon as possible (highest item prep time) or after a specific time related to check-in time or previous serving time.
+
+Endpoin: /servings/{id} -- Return a specifc serving
+Endpoin: /servings/visit/{id} -- Return all servings bellowing to the ID visit
+
+
+Json Returned (Individual Serving):
+{
+	id: UUID,
+	visitId: UUID,
+	seq: Number,
+	whenType: Char [S,C,L],
+	waitTime: Number
+	itemsSelection: [
+		{
+			itemId: UUID,
+			quantity: Number
+		}
+	]
+}
+
+-------------------------------------------- ITEM SELECTION --------------------------------------------
+Class Name: ItemSelection
+
+Desc: 
+Item selection is one item from a menu that was selected and customized by a User to be part of a Serving. The customization can be quantity, add/remove ingredients, etc. (It will depends on the restaurant).
+
+Endpoin: /item_selections/{id} -- Return a specifc item selection
+Endpoin: /item_selections/serving/{id} -- Return all item selections bellowing to the ID serving
+
+Json Returned (Individual ItemServing):
+{
+	id: UUID,
+	servingId: UUID,
+	itemId: UUID,
+	quantity: Number
+}
+
+-------------------------------------------- MENU ITEM --------------------------------------------
+Class Name: MenuItem
+
+Desc:
+MenuItem is a food/drink offered by restaurants. It can have 3 types (for now): D - Dish, B - Beverage, and A - Appetizer
+
+Endpoin: /menu_items/{id} -- Return a specifc MenuItem selection
+Endpoin: /menu_items/menu/{id} -- Return all MenuItems bellowing to the ID menu
+
+Json Returned (Individual MenuItem):
+{
+	id: UUID,
+	menuId: UUID,
+	type: Char [D,B,A],
+	name: String,
+	info: String,
+	photoUrl: String,
+	price: Number,
+	prepTime: Number
+}
+
+-------------------------------------------- MENU --------------------------------------------
+Class Name: Menu
+
+Desc:
+Menu is a group of items (food and beverage) offered by a restaurant
+
+Endpoin: /menu/{id} -- Return a specifc Menu selection
+Endpoin: /menu/restaurant/{id} -- Return all Menus bellowing to the ID menu
+
+Json Returned (Individual MenuItem):
+{
+	id: UUID,
+	restaurantId: UUID,
+	menuName: String,
+	type: String,
+	photoUrl: String,
+}
+
+-------------------------------------------- RESTAURANTES --------------------------------------------
+Class Name: Restaurant
+
+Desc:
+Restaurant is an establishment that supports myService app 
+
+Endpoin: /restaurant/{id} -- Return all restaurants
+Endpoin: /restaurant/{id} -- Return a specific restaurant
+
+Json Returned (Individual MenuItem):
+{
+	id: UUID,
+	name: String,
+	cuisine: String
+	address: {
+     building: String,
+     coord: [ Number, Number ],
+     street": String,
+     zipcode": String
+  	}
+	
+}

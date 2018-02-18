@@ -1,0 +1,64 @@
+{
+	"restaurantId":"R1001",
+	"name" : "Continental Coffee",
+	"cuisine" : "Coffee Shop",
+	"imgUrl" : "images/restaurants/continental/contineltal.jpg",
+	"imgUrlThumb" : "images/restaurants/continental/contineltal_thumb.png",
+	"address" : {
+		"country":"Canada",
+		"province":"British Columbia",
+		"city": "Vancouver",
+		"building": "4295",
+		"coord": [ 49.247002,-123.1020533 ],
+		"street": "Main Street",
+		"zipcode": "V5V 3P8"
+	}
+}
+{
+	"restaurantId":"R1002",
+	"name" : "Dutch Wooden Shoe Cafe",
+	"cuisine" : "Breakfast Restaurant",
+	"imgUrl" : "images/restaurants/dutchwooden/dutchwooden.jpg",
+	"imgUrlThumb" : "images/restaurants/dutchwooden/dutchwooden_thumb.jpg",
+	"address" : {
+		"country":"Canada",
+		"province":"British Columbia",
+		"city": "Vancouver",
+		"building": "3292",
+		"coord": [ 49.2560369,-123.1154535 ],
+		"street": "Cambie Street",
+		"zipcode": "V5Z 2W4"
+	}
+}
+{
+	"restaurantId":"R1003",
+	"name" : "Gyu-Kaku Japanese BBQ",
+	"cuisine" : "Japanese Restaurant",
+	"imgUrl" : "images/restaurants/gyukaku/gyukaku.jpg",
+	"imgUrlThumb" : "images/restaurants/gyukaku/gyukaku_thumb.png",
+	"address" : {
+		"country":"Canada",
+		"province":"British Columbia",
+		"city": "Vancouver",
+		"building": "888",
+		"coord": [ 49.2800822,-123.1273912 ],
+		"street": "Nelson Street",
+		"zipcode": "V6Z 2H1"
+	}
+}
+{
+	"restaurantId":"R1004",
+	"name" : "Six Acres",
+	"cuisine" : "Pub",
+	"imgUrl" : "images/restaurants/sixacres/sixacres.jpg",
+	"imgUrlThumb" : "images/restaurants/sixacres/sixacres_thumb.png",
+	"address" : {
+		"country":"Canada",
+		"province":"British Columbia",
+		"city": "Vancouver",
+		"building": "203",
+		"coord": [ 49.2825068,-123.1048653 ],
+		"street": "Carrall Street",
+		"zipcode": "V6B 2J2"
+	}
+}

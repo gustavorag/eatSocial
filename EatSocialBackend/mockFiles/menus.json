@@ -1,0 +1,21 @@
+{
+	"menuId" : "M1001",
+	"restaurantId" : "R1004",
+	"menuName" : "Dishes",
+	"type" : "D",
+	"imgUrl" : "images/restaurants/SixAcres/menu/menu01.jpg"
+}
+{
+	"menuId": "M1002",
+	"restaurantId": "R1004",
+	"type": "B",
+	"menuName": "Beverages",
+	"imgUrl": "images/restaurants/SixAcres/menu/menu02.jpg"
+}
+{
+	"menuId": "M1003",
+	"restaurantId": "R1004",
+	"type": "A",
+	"menuName": "Appetizers",
+	"imgUrl": "images/restaurants/SixAcres/menu/menu03.jpg"
+}

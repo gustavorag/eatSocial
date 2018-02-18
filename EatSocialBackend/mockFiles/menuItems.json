@@ -1,0 +1,90 @@
+{
+	"menuItemId": "MI1001",
+	"menuId": "M1002",
+	"type": "B",
+	"name": "Brassneck",
+	"info": "From Del`ta",
+	"imgUrl": "images/restaurants/sixacres/menuItem/item01.jpg",
+	"price": 5.00,
+	"prepTime": 300
+}
+{
+	"menuItemId": "MI1002",
+	"menuId": "M1003",
+	"type": "A",
+	"name": "Sausage Board",
+	"info": "2 types of sausage from butchers around town, sauerkraut, cornichons, mustards, toasted baguette",
+	"imgUrl": "images/restaurants/sixacres/menuItem/item02.jpg",
+	"price": 17.00,
+	"prepTime": 600
+}
+{
+	"menuItemId": "MI1003",
+	"menuId": "M1003",
+	"type": "A",
+	"name": "Poutine",
+	"info": "st. ambroise stout gravy, cheese curds, sharp cheddar, shallots add sauteed mushrooms or double-smoked bacon 2.50",
+	"imgUrl": "images/restaurants/sixacres/menuItem/item03.jpg",
+	"price": 11.50,
+	"prepTime": 300
+}
+{
+	"menuItemId": "MI1004",
+	"menuId": "M1001",
+	"type": "D",
+	"name": "Cheddar Corn Fritters",
+	"info": "Deep fried corn batter, scallions, chipotle crema, honey",
+	"imgUrl": "images/restaurants/sixacres/menuItem/item04.jpg",
+	"price": 7.50,
+	"prepTime": 300
+}
+{
+	"menuItemId": "MI1005",
+	"menuId": "M1002",
+	"type": "B",
+	"name": "Four Winds",
+	"info": "From Del`ta",
+	"imgUrl": "images/restaurants/sixacres/menuItem/item05.jpg",
+	"price": 5.00,
+	"prepTime": 300
+}
+{
+	"menuItemId": "MI1006",
+	"menuId": "M1002",
+	"type": "B",
+	"name": "Tofino",
+	"info": "From Del`ta",
+	"imgUrl": "images/restaurants/sixacres/menuItem/item06.jpg",
+	"price": 5.00,
+	"prepTime": 300
+}
+{
+	"menuItemId": "MI1007",
+	"menuId": "M1001",
+	"type": "D",
+	"name": "Seared Bison Steak Salad",
+	"info": "5oz flank, arugula, radishes, fried cauliflower, tomatoes, basil, truffle balsamic dressing add blue cheese 2.50",
+	"imgUrl": "images/restaurants/sixacres/menuItem/item07.jpg",
+	"price": 14.50,
+	"prepTime": 900
+}
+{
+	"menuItemId": "MI1008",
+	"menuId": "M1001",
+	"type": "D",
+	"name": "Mac & Cheese",
+	"info": "gruyere, grana pandano, aged cheddar, toasted breadcrumb crust",
+	"imgUrl": "images/restaurants/sixacres/menuItem/item08.jpg",
+	"price": 10,
+	"prepTime": 900
+}
+{
+	"menuItemId": "MI1009",
+	"menuId": "M1003",
+	"type": "A",
+	"name": "Pound O` Wings",
+	"info": "house made sweet chili glaze OR salt & pepper",
+	"imgUrl": "images/restaurants/sixacres/menuItem/item07.jpg",
+	"price": 12.75,
+	"prepTime": 900
+}
