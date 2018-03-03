@@ -1,21 +1,22 @@
-{
+[{
 	"tableId":"TB0001",
 	"tableFriendlyCode":"001",
 	"tableQRcode":"R1004-TB0001",
 	"tableQRcodeUrl": "images/SixAcres/qcode/R1004-TB0001-qcode.png",
 	"restaurantId":"R1004"
-}
+},
 {
 	"tableId":"TB0002",
 	"tableFriendlyCode":"001",
-	"tableQRcode":"R1004-TB0001",
+	"tableQRcode":"R1004-TB0002",
 	"tableQRcodeUrl": "images/SixAcres/qcode/R1004-TB0002-qcode.png",
 	"restaurantId":"R1004"
-}
+},
 {
 	"tableId":"TB0003",
 	"tableFriendlyCode":"001",
-	"tableQRcode":"R1004-TB0001",
+	"tableQRcode":"R1004-TB0003",
 	"tableQRcodeUrl": "images/SixAcres/qcode/R1004-TB0003-qcode.png",
 	"restaurantId":"R1004"
 }
+]

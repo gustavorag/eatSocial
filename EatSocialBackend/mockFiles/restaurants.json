@@ -1,4 +1,4 @@
-{
+[{
 	"restaurantId":"R1001",
 	"name" : "Continental Coffee",
 	"cuisine" : "Coffee Shop",
@@ -13,7 +13,7 @@
 		"street": "Main Street",
 		"zipcode": "V5V 3P8"
 	}
-}
+},
 {
 	"restaurantId":"R1002",
 	"name" : "Dutch Wooden Shoe Cafe",
@@ -29,7 +29,7 @@
 		"street": "Cambie Street",
 		"zipcode": "V5Z 2W4"
 	}
-}
+},
 {
 	"restaurantId":"R1003",
 	"name" : "Gyu-Kaku Japanese BBQ",
@@ -45,7 +45,7 @@
 		"street": "Nelson Street",
 		"zipcode": "V6Z 2H1"
 	}
-}
+},
 {
 	"restaurantId":"R1004",
 	"name" : "Six Acres",
@@ -61,4 +61,4 @@
 		"street": "Carrall Street",
 		"zipcode": "V6B 2J2"
 	}
-}
+}]

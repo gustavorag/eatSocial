@@ -1,8 +1,11 @@
 var myServerModels = require('./myServeModels');
+// var restaurantsRepository = require('./restaurantsRepository');
+//var restaurantsRepository = require('./../models/restaurantsRepository');
+
 
 api = {
 	getAll:function(callbackFunction){
-		myServerModels.tablesModel.find().lean().exec( function(err, tables){
+		myServerModels.tablesModel.find().lean().exec(function(err, tables){
 			if(err){
 				callbackFunction(err, undefined)
 			}else{
@@ -28,12 +31,54 @@ api = {
 				}
 			}else{
 				table = tables;
+				// restaurantsRepository.getById(id, function(error, restaurant){
+				// 	if(error){
+				// 		callbackFunction(error, undefined)
+				// 	}else{
+				// 		if(err){
+				// 			callbackFunction(err, undefined)
+				// 		}else{
+				// 			table.restaurant = restaurant;
+				// 			callbackFunction(undefined, table)
+				// 		}
+				// 	}
+				// })
 			}
+			
+		});
+	},
+	getByQRCode:function(qrcode, callbackFunction){
+
+		console.log("Getting table "+qrcode);
+
+		myServerModels.tablesModel.find({"tableQRcode":qrcode}).lean().exec( function(err, tables){
+			var table = undefined;
+			if(Array.isArray(tables)){
+				if(tables.length > 1){
+					err = "More than one table found with same qrcode ["+qrcode+"]"
+				}
+				if(tables.length == 1){
+					table = tables[0];
+				}
+			}else{
+				table = tables;
+				
+			}
+
 			if(err){
 				callbackFunction(err, undefined)
 			}else{
 				callbackFunction(undefined, table)
+				// restaurantsRepository.getById(table.id, function(error, restaurant){
+				// 	if(error){
+				// 		callbackFunction(error, undefined)
+				// 	}else{
+				// 		table.restaurant = restaurant;
+				// 		callbackFunction(undefined, table)
+				// 	}
+				// })
 			}
+			
 		});
 	},
 	getByRestaurantId:function(restaurantId, callbackFunction){

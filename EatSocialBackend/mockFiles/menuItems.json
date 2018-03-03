@@ -1,4 +1,4 @@
-{
+[{
 	"menuItemId": "MI1001",
 	"menuId": "M1002",
 	"type": "B",
@@ -7,7 +7,7 @@
 	"imgUrl": "images/restaurants/sixacres/menuItem/item01.jpg",
 	"price": 5.00,
 	"prepTime": 300
-}
+},
 {
 	"menuItemId": "MI1002",
 	"menuId": "M1003",
@@ -17,7 +17,7 @@
 	"imgUrl": "images/restaurants/sixacres/menuItem/item02.jpg",
 	"price": 17.00,
 	"prepTime": 600
-}
+},
 {
 	"menuItemId": "MI1003",
 	"menuId": "M1003",
@@ -27,7 +27,7 @@
 	"imgUrl": "images/restaurants/sixacres/menuItem/item03.jpg",
 	"price": 11.50,
 	"prepTime": 300
-}
+},
 {
 	"menuItemId": "MI1004",
 	"menuId": "M1001",
@@ -37,7 +37,7 @@
 	"imgUrl": "images/restaurants/sixacres/menuItem/item04.jpg",
 	"price": 7.50,
 	"prepTime": 300
-}
+},
 {
 	"menuItemId": "MI1005",
 	"menuId": "M1002",
@@ -47,7 +47,7 @@
 	"imgUrl": "images/restaurants/sixacres/menuItem/item05.jpg",
 	"price": 5.00,
 	"prepTime": 300
-}
+},
 {
 	"menuItemId": "MI1006",
 	"menuId": "M1002",
@@ -57,7 +57,7 @@
 	"imgUrl": "images/restaurants/sixacres/menuItem/item06.jpg",
 	"price": 5.00,
 	"prepTime": 300
-}
+},
 {
 	"menuItemId": "MI1007",
 	"menuId": "M1001",
@@ -67,7 +67,7 @@
 	"imgUrl": "images/restaurants/sixacres/menuItem/item07.jpg",
 	"price": 14.50,
 	"prepTime": 900
-}
+},
 {
 	"menuItemId": "MI1008",
 	"menuId": "M1001",
@@ -77,7 +77,7 @@
 	"imgUrl": "images/restaurants/sixacres/menuItem/item08.jpg",
 	"price": 10,
 	"prepTime": 900
-}
+},
 {
 	"menuItemId": "MI1009",
 	"menuId": "M1003",
@@ -88,3 +88,4 @@
 	"price": 12.75,
 	"prepTime": 900
 }
+]

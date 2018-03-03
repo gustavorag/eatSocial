@@ -9,6 +9,7 @@ var restaurants = require('./routes/restaurantsRouter');
 var visits = require('./routes/visitsRouter');
 var menuItems = require('./routes/menuItemsRouter');
 var menus = require('./routes/menusRouter');
+var tables = require('./routes/tablesRouter');
 
 var app = express();
 // var port = 8087;
@@ -112,6 +113,7 @@ var startApp = function(){
    app.use('/visits', visits);
    app.use('/menuItems', menuItems);
    app.use('/menus', menus);
+   app.use('/tables', tables);
 
 	app.listen(appConfig.port, function(err, res){
 		if(err){
